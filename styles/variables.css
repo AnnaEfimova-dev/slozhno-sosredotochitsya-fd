@@ -17,9 +17,13 @@
   --header__theme-menu-button-hover: rgba(255, 0, 112, 0.4);
   --text-shadow_large: 4px 4px 0 #ff0070;
   --text-shadow_small: 2px 2px 0 #ff0070;
-  --bg-color: #000028;  
+  --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --main-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --decorated-rec-right-padding: clamp(2.375rem, 1.7786rem + 2.5445vw, 3rem);
-  --decorated-rec_lighter-padding: clamp(1.125rem, 0.5286rem + 2.5445vw, 1.75rem);
+  --decorated-rec_lighter-padding: clamp(
+    1.125rem,
+    0.5286rem + 2.5445vw,
+    1.75rem
+  );
 }

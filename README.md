@@ -1,1 +1,1 @@
-https://github.com/AnnaEfimova-dev/slozhno-sosredotochitsya-fd#
+https://github.com/AnnaEfimova-dev/slozhno-sosredotochitsya-fd
