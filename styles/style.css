@@ -100,7 +100,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--header__theme-menu-button-hover);
+  border: 1px solid var(--accent-color-button-hover);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -236,7 +236,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: 100vh;
+  block-size: 100vh;
   min-block-size: 668px;
   padding: var(--main-padding);
   position: relative;
@@ -307,15 +307,13 @@
 
   .content-what {
     /* Индивидуальное расположение секции what*/
-    grid-template-rows: 70px 1fr 1fr 1fr;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 236px 1fr;
   }
 
-  .content-title-what {
-    /* Индивидуальное расположение h2 в секции what*/
-    grid-row: 1;
-    grid-column: 1;
+  .content-title-padding {
+    margin-bottom: 0px;
   }
+
   .content-list-what {
     /* Индивидуальное расположение ul в секции what*/
     grid-row-start: 2;
@@ -336,7 +334,7 @@
   .content-pictures-template {
     /* Индивидуальное расположение секции c картинками*/
     grid-template-rows: 192px 230px 318px;
-    grid-template-columns: repeat(3, 230px);
+    grid-template-columns: repeat(3, auto);
     gap: 20px;
   }
 
@@ -427,12 +425,13 @@
 
   .content-what {
     /* Индивидуальное расположение секции what*/
-    gap: 0px;
+    grid-template-columns: 315px 1fr;
+    gap: 20px;
   }
+
   .content-list-what {
     /* Индивидуальное расположение ul в секции what*/
     display: grid;
-    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
@@ -450,7 +449,7 @@
   .content-pictures-template {
     /* Индивидуальное расположение секции c картинками*/
     grid-template-rows: 260px 315px 433px;
-    grid-template-columns: repeat(3, 315px);
+    grid-template-columns: repeat(3, auto);
     gap: 20px;
   }
 
