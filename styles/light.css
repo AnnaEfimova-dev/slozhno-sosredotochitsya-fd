@@ -14,7 +14,7 @@
   --header-title-text-color: #ffc2e6;
   --accent-color: #353430;
   --accent-color-bg: #ff8dcb;
-  --header__theme-menu-button-hover: rgba(50, 49, 45, 0.4);
+  --accent-color-button-hover: #32312d66;
   --text-shadow_large: 4px 4px 0 #ff8dcb;
   --text-shadow_small: 2px 2px 0 #ff8dcb;
   --bg-color: #fff1f7;
@@ -33,7 +33,7 @@
     --header-title-text-color: #ffc2e6;
     --accent-color: #353430;
     --accent-color-bg: #ff8dcb;
-    --header__theme-menu-button-hover: rgba(50, 49, 45, 0.4);
+    --accent-color-button-hover: #32312d66;
     --text-shadow_large: 4px 4px 0 #ff8dcb;
     --text-shadow_small: 2px 2px 0 #ff8dcb;
     --bg-color: #fff1f7;
